@@ -1,0 +1,33 @@
+[submodule "alltray-oldmaintenance"]
+	path = alltray-oldmaintenance
+	url = ssh://aur/alltray-oldmaintenance.git
+[submodule "escapegoat"]
+	path = escapegoat
+	url = ssh://aur/escapegoat.git
+[submodule "farragone"]
+	path = farragone
+	url = ssh://aur/farragone.git
+[submodule "flashplayer-standalone-debug"]
+	path = flashplayer-standalone-debug
+	url = ssh://aur/flashplayer-standalone-debug.git
+[submodule "gcedit"]
+	path = gcedit
+	url = ssh://aur/gcedit.git
+[submodule "jsession"]
+	path = jsession
+	url = ssh://aur/jsession.git
+[submodule "lib32-libbass"]
+	path = lib32-libbass
+	url = ssh://aur/lib32-libbass.git
+[submodule "pwrnotify"]
+	path = pwrnotify
+	url = ssh://aur/pwrnotify.git
+[submodule "sokobond"]
+	path = sokobond
+	url = ssh://aur/sokobond.git
+[submodule "ytsubs"]
+	path = ytsubs
+	url = ssh://aur/ytsubs.git
+[submodule "zb-fetcher"]
+	path = zb-fetcher
+	url = ssh://aur/zb-fetcher.git

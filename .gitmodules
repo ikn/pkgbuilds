@@ -34,3 +34,6 @@
 [submodule "xorg-choose-window"]
 	path = xorg-choose-window
 	url = ssh://aur/xorg-choose-window.git
+[submodule "tellmewhen"]
+	path = tellmewhen
+	url = ssh://aur/tellmewhen.git

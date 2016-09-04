@@ -37,3 +37,6 @@
 [submodule "tellmewhen"]
 	path = tellmewhen
 	url = ssh://aur/tellmewhen.git
+[submodule "dustforce-hib-dustmod"]
+	path = dustforce-hib-dustmod
+	url = ssh://aur/dustforce-hib-dustmod.git

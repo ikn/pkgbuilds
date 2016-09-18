@@ -40,3 +40,6 @@
 [submodule "dustforce-hib-dustmod"]
 	path = dustforce-hib-dustmod
 	url = ssh://aur/dustforce-hib-dustmod.git
+[submodule "pyroom"]
+	path = pyroom
+	url = ssh://aur/pyroom.git

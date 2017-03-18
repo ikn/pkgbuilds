@@ -43,3 +43,6 @@
 [submodule "pyroom"]
 	path = pyroom
 	url = ssh://aur/pyroom.git
+[submodule "cosmic-express"]
+	path = cosmic-express
+	url = ssh://aur/cosmic-express.git

@@ -1,0 +1,19 @@
+# Maintainer: Joseph Lansdowne <J49137@gmail.com>
+pkgname=gw2-arcdps-installer
+pkgver=20171020_0144
+pkgrel=1
+pkgdesc="Guild Wars 2 DPS meter addon with build templates"
+arch=(x86_64)
+url=http://www.deltaconnected.com/arcdps/
+license=(custom)
+depends=(wine wget)
+source=(gw2-arcdps-install)
+md5sums=('6ce9e05751a7a18a9f021b6b06d71948')
+
+package () {
+    install -D "$srcdir"/gw2-arcdps-install "$pkgdir"/usr/bin/gw2-arcdps-install
+    wine_dir="$pkgdir"/usr/lib/wine
+    install -d "$wine_dir"
+    ln -sr "$wine_dir"/d3d9.dll.so "$wine_dir"/d3d9_chainload.dll.so
+}
+

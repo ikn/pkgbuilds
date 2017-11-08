@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+# Distributed under the terms of the BSD 3-Clause license
+
 base_url="http://www.deltaconnected.com/arcdps/x64/"
 dll_name="d3d9.dll"
 bt_dll_name="d3d9_arcdps_buildtemplates.dll"

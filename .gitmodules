@@ -46,3 +46,6 @@
 [submodule "cosmic-express"]
 	path = cosmic-express
 	url = ssh://aur/cosmic-express.git
+[submodule "pacman-expire-cache"]
+	path = pacman-expire-cache
+	url = ssh://aur/pacman-expire-cache.git

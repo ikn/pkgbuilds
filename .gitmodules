@@ -49,3 +49,6 @@
 [submodule "pacman-expire-cache"]
 	path = pacman-expire-cache
 	url = ssh://aur/pacman-expire-cache.git
+[submodule "fdlinecombine"]
+	path = fdlinecombine
+	url = ssh://aur/fdlinecombine.git

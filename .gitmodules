@@ -52,3 +52,6 @@
 [submodule "fdlinecombine"]
 	path = fdlinecombine
 	url = ssh://aur/fdlinecombine.git
+[submodule "gw2-tools"]
+	path = gw2-tools
+	url = ssh://aur/gw2-tools.git

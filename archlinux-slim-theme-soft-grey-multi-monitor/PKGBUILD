@@ -1,0 +1,15 @@
+# Maintainer: Joseph Lansdowne <j49137@gmail.com>
+pkgname=archlinux-slim-theme-soft-grey-multi-monitor
+pkgver=1.0
+pkgrel=1
+pkgdesc="Arch Linux soft grey SLiM theme for multiple monitors"
+arch=(any)
+url=http://www.archlinux.org/
+license=(CCPL:cc-by-sa)
+source=(archlinux-soft-grey-multi-monitor.tar.gz)
+sha1sums=('6f7806101d179b7ae4106dfab31a70ea141b0b7e')
+
+package () {
+    mkdir -p "$pkgdir/usr/share/slim/themes"
+    cp -a "$srcdir/archlinux-soft-grey-multi-monitor" "$pkgdir/usr/share/slim/themes/"
+}

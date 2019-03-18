@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+for submodule_dir in .git/modules/*; do
+    submodule_hook="$submodule_dir"/hooks/pre-commit
+    cat > "$submodule_hook" <<EOF
+#! /usr/bin/env bash
+
+mksrcinfo && git add .SRCINFO
+EOF
+    chmod +x "$submodule_hook"
+done

@@ -58,3 +58,6 @@
 [submodule "urxvt-perls-git"]
 	path = urxvt-perls-git
 	url = ssh://aur/urxvt-perls-git.git
+[submodule "curlftpfs-ng"]
+	path = curlftpfs-ng
+	url = ssh://aur/curlftpfs-ng.git

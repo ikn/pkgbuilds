@@ -61,3 +61,6 @@
 [submodule "curlftpfs-ng"]
 	path = curlftpfs-ng
 	url = ssh://aur/curlftpfs-ng.git
+[submodule "tvheadend-safe-restart"]
+	path = tvheadend-safe-restart
+	url = ssh://aur/tvheadend-safe-restart.git

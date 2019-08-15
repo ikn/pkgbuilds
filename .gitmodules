@@ -64,3 +64,6 @@
 [submodule "tvheadend-safe-restart"]
 	path = tvheadend-safe-restart
 	url = ssh://aur/tvheadend-safe-restart.git
+[submodule "python-pyepgdb"]
+	path = python-pyepgdb
+	url = ssh://aur/python-pyepgdb.git

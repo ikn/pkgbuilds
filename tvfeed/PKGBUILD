@@ -1,0 +1,29 @@
+# Maintainer: Joseph Lansdowne <J49137@gmail.com>
+pkgname=tvfeed-git
+pkgver=r3.09f6f80
+pkgrel=1
+pkgdesc="Produce an RSS feed from upcoming television broadcasts discovered by Tvheadend"
+arch=(any)
+url=https://github.com/ikn/tvfeed
+license=(BSD)
+makedepends=(git python-setuptools)
+depends=(python-pyepgdb)
+source=('tvfeed::git+https://github.com/ikn/tvfeed')
+sha1sums=('SKIP')
+
+pkgver () {
+    cd "$srcdir/${pkgname%-git}"
+    printf "r%s.%s" \
+        "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+build () {
+    cd "$srcdir/${pkgname%-git}"
+    make
+}
+
+package () {
+    cd "$srcdir/${pkgname%-git}"
+    make DESTDIR="$pkgdir" prefix=/usr install
+    install -D LICENSE "$pkgdir"/usr/share/licenses/"$pkgname"/LICENSE
+}

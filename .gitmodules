@@ -67,3 +67,6 @@
 [submodule "python-pyepgdb"]
 	path = python-pyepgdb
 	url = ssh://aur/python-pyepgdb.git
+[submodule "python-gw2buildutil"]
+	path = python-gw2buildutil
+	url = ssh://aur/python-gw2buildutil.git

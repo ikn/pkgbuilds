@@ -1,6 +1,3 @@
-[submodule "alltray-oldmaintenance"]
-	path = alltray-oldmaintenance
-	url = ssh://aur/alltray-oldmaintenance.git
 [submodule "escapegoat"]
 	path = escapegoat
 	url = ssh://aur/escapegoat.git
@@ -55,9 +52,6 @@
 [submodule "gw2-tools"]
 	path = gw2-tools
 	url = ssh://aur/gw2-tools.git
-[submodule "urxvt-perls-git"]
-	path = urxvt-perls-git
-	url = ssh://aur/urxvt-perls-git.git
 [submodule "curlftpfs-ng"]
 	path = curlftpfs-ng
 	url = ssh://aur/curlftpfs-ng.git

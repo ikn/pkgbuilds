@@ -64,3 +64,6 @@
 [submodule "python-gw2buildutil"]
 	path = python-gw2buildutil
 	url = ssh://aur/python-gw2buildutil.git
+[submodule "arcdps-log-manager"]
+	path = arcdps-log-manager
+	url = ssh://aur/arcdps-log-manager.git

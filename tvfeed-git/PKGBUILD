@@ -1,6 +1,6 @@
 # Maintainer: Joseph Lansdowne <J49137@gmail.com>
 pkgname=tvfeed-git
-pkgver=r3.09f6f80
+pkgver=r16.8c58eb1
 pkgrel=1
 pkgdesc="Produce an RSS feed from upcoming television broadcasts discovered by Tvheadend"
 arch=(any)

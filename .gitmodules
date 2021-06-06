@@ -4,9 +4,6 @@
 [submodule "farragone"]
 	path = farragone
 	url = ssh://aur/farragone.git
-[submodule "flashplayer-standalone-debug"]
-	path = flashplayer-standalone-debug
-	url = ssh://aur/flashplayer-standalone-debug.git
 [submodule "gcedit"]
 	path = gcedit
 	url = ssh://aur/gcedit.git

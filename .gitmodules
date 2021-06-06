@@ -13,9 +13,6 @@
 [submodule "jsession"]
 	path = jsession
 	url = ssh://aur/jsession.git
-[submodule "lib32-libbass"]
-	path = lib32-libbass
-	url = ssh://aur/lib32-libbass.git
 [submodule "pwrnotify"]
 	path = pwrnotify
 	url = ssh://aur/pwrnotify.git

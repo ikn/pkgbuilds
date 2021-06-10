@@ -13,9 +13,6 @@
 [submodule "pwrnotify"]
 	path = pwrnotify
 	url = ssh://aur/pwrnotify.git
-[submodule "sokobond"]
-	path = sokobond
-	url = ssh://aur/sokobond.git
 [submodule "ytsubs"]
 	path = ytsubs
 	url = ssh://aur/ytsubs.git

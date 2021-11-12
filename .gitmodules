@@ -16,9 +16,6 @@
 [submodule "ytsubs"]
 	path = ytsubs
 	url = ssh://aur/ytsubs.git
-[submodule "zb-fetcher"]
-	path = zb-fetcher
-	url = ssh://aur/zb-fetcher.git
 [submodule "xorg-choose-window"]
 	path = xorg-choose-window
 	url = ssh://aur/xorg-choose-window.git
